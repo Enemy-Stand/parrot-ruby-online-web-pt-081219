@@ -1,3 +1,3 @@
 def parrot(phrase)
-  return phrase
+  return parrot
 end
