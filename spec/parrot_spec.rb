@@ -4,6 +4,8 @@ def parrot(phrase="Squawk!")
   puts phrase
   return phrase
 end
+
+phrase = parrot
 describe '#parrot' do
   it 'should output "Squawk!" to the terminal when called without any arguments' do
     expect($stdout).to receive(:puts).with("Squawk!")
