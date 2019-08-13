@@ -1,5 +1,3 @@
-def parrot(phrase)
+def #parrot(phrase)
   return phrase
 end
-
-parrot
