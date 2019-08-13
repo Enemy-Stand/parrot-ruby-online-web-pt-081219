@@ -1,5 +1,5 @@
 def parrot(phrase)
-  return parrot
+  return phrase
 end
 
 parrot
